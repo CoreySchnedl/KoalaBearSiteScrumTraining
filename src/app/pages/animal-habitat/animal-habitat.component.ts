@@ -9,7 +9,14 @@ export class AnimalHabitatComponent implements OnInit {
 
   constructor() { }
 
-  ngOnInit(): void {
+  playAudio(){
+    let audio = new Audio();
+    audio.src = "../../../assets/darkwds1.wav";
+    audio.load();
+    audio.play();
   }
 
+  ngOnInit(): void {
+    this.playAudio();
+  }
 }

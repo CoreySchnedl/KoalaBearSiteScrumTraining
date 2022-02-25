@@ -13,6 +13,11 @@ import { AnatomyComponent } from './pages/anatomy/anatomy.component';
 import { BehaviorComponent } from './pages/behavior/behavior.component';
 import { NotFoundComponent } from './pages/not-found/not-found.component';
 import { IvyCarouselModule } from 'angular-responsive-carousel';
+import { QuizComponent } from './pages/quizz/quizz.component';
+import { RedWolvesComponent } from './pages/red-wolves/red-wolves.component';
+import { PlatypusesComponent } from './pages/platypuses/platypuses.component';
+import { CatsComponent } from './pages/cats/cats.component';
+import { SafePipe } from './pipes/SafePipe.pipe';
 
 @NgModule({
   declarations: [
@@ -25,7 +30,12 @@ import { IvyCarouselModule } from 'angular-responsive-carousel';
     NameAndClassComponent,
     AnatomyComponent,
     BehaviorComponent,
-    NotFoundComponent
+    NotFoundComponent,
+    QuizComponent,
+    RedWolvesComponent,
+    PlatypusesComponent,
+    CatsComponent,
+    SafePipe
   ],
   imports: [
     BrowserModule,
